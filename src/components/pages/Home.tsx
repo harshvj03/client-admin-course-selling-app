@@ -46,8 +46,6 @@ const Home = () => {
 
   const editItem = (id: string) => {
     console.log("edit", id);
-    // setOpen(true);
-    // setSelectedRow(courses.find((x) => x._id === id));
     navigate('/home/' + id);
   };
 
